@@ -13,9 +13,60 @@ body{
 .hero-section{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+
+    padding: 16px 100px;
 }
 
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 50px;
+}
 
+.header ul{
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+}
+
+.header a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    gap: 40px;
+}
+
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.hero-img{
+    width: 500px;
+    height: auto;
+}
+
+.hero-button{
+    padding: 8px 30px;
+    border: none;
+    border-radius: 5px;
+    color: #f9faf8;
+    font-weight: bold;
+}
 
 /* Main fonts and colors from instructions*/
 .hero-section, .footer{
@@ -57,6 +108,8 @@ body{
 .quote-text{
     font-size: 36px;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: 300;
     color: #1f2937;
 }
+
+/* End of instructed fonts and colors */
