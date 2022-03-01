@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Main fonts and colors from instructions*/
+.hero-section, .footer{
+    background-color: #1f2937;
+}
+
+.hero-title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-text,
+.header a{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header h1{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.hero-button,
+.cta-card{
+    background-color: #3882f6;
+}
+
+.info-container h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.quote{
+    background-color: #e5e7eb;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
