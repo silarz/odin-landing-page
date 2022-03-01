@@ -68,6 +68,35 @@ a:hover{
     font-weight: bold;
 }
 
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    gap: 20px;
+}
+
+.icons-row{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text
+}
+.icon img{
+    width: 150px;
+    height: auto;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
 /* Main fonts and colors from instructions*/
 .hero-section, .footer{
     background-color: #1f2937;
